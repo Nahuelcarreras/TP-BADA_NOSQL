@@ -1,0 +1,78 @@
+[
+  {
+    _id: ObjectId('66eb961f460a588efdc73bf9'),
+    nombre: 'Rex',
+    tipo: 'Perro',
+    raza: 'Labrador',
+    edad: 5,
+    'dueño': {
+      nombre: 'Juan Pérez',
+      telefono: '123-456-7890',
+      email: 'juanperez@example.com'
+    },
+    visitas: [
+      {
+        fecha: ISODate('2024-09-15T00:00:00.000Z'),
+        motivo: 'Vacunación',
+        diagnostico: 'Vacunas al día',
+        tratamiento: 'Ninguno'
+      },
+      {
+        fecha: ISODate('2024-06-10T00:00:00.000Z'),
+        motivo: 'Chequeo general',
+        diagnostico: 'Todo en orden',
+        tratamiento: 'Revisar peso'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('66eb98d3460a588efdc73bfa'),
+    nombre: 'Mimi',
+    tipo: 'Gato',
+    raza: 'Siames',
+    edad: 3,
+    'dueño': {
+      nombre: 'Ana Gómez',
+      telefono: '987-654-3210',
+      email: 'anagomez@example.com'
+    },
+    visitas: [
+      {
+        fecha: ISODate('2024-08-20T00:00:00.000Z'),
+        motivo: 'Vacunación',
+        diagnostico: 'Vacunas al día',
+        tratamiento: 'Ninguno'
+      },
+      {
+        fecha: ISODate('2024-05-15T00:00:00.000Z'),
+        motivo: 'Chequeo general',
+        diagnostico: 'Todo en orden',
+        tratamiento: 'Revisar peso'
+      }
+    ]
+  },
+  {
+    _id: ObjectId('66eb9abb460a588efdc73bfb'),
+    nombre: 'Luna',
+    tipo: 'Perro',
+    raza: 'Beagle',
+    edad: 4,
+    'dueño': {
+      nombre: 'Carlos Martínez',
+      telefono: '456-789-1234',
+      email: 'carlosmartinez@example.com'
+    },
+    visitas: [
+      {
+        fecha: ISODate('2024-07-10T00:00:00.000Z'),
+        motivo: 'Desparasitacion',
+        diagnostico: 'Todo en orden',
+        tratamiento: 'Desparasitante administrado'
+      },
+      {
+        fecha: ISODate('2024-03-05T00:00:00.000Z'),
+        motivo: 'Chequeo general',
+        diagnostico: 'Leve sobrepeso',
+        tratamiento: 'Revisar dieta'
+      }
+    ]
